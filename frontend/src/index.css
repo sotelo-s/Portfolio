@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lexend+Deca:wght@100..900&display=swap');
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: #292A3C !important;
+  color: #fff !important;
+}
+
+.container-1 {
+  background-color: #1D1D1D;
+  width: 100% !important;
+}
+

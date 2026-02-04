@@ -1,0 +1,50 @@
+[
+    {
+        "place": {
+            "en": "University of Santiago de Compostela",
+            "es": "Universidad de Santiago de Compostela",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg"
+        },
+        "title": {
+            "en": "Master in Big Data",
+            "es": "Máster en Big Data"
+        },
+        "dates": {
+            "en": "Sept 2025 - Jul 2026",
+            "es": "Sept 2025 - Jul 2026"
+        },
+        "description": {
+            "en": "Original title: Máster Universitario en Tecnologías de Análisis de Datos Masivos: Big Data",
+            "es": "Título original: Máster Universitario en Tecnologías de Análisis de Datos Masivos: Big Data"
+        },
+        "gpa": "8.63/10",
+        "tags": {
+            "en": [],
+            "es": []
+        }
+    },
+    {
+        "place": {
+            "en": "University of Santiago de Compostela",
+            "es": "Universidad de Santiago de Compostela",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg"
+        },
+        "title": {
+            "en": "Computer Engineering",
+            "es": "Ingeniería Informática"
+        },
+        "dates": {
+            "en": "Sept 2021 - Jul 2025",
+            "es": "Sept 2021 - Jul 2025"
+        },
+        "description": {
+            "en": "With High Honors in Calculus and Numerical Analysis, Databases I, Operating Systems I and Operating Systems II",
+            "es": "Con matrículas de honor en Cálculo y Análisis Numérico, Bases de Datos I, Sistemas Operativos I y Sistemas Operativos II"
+        },
+        "gpa": "8.23/10",
+        "tags": {
+            "en": [],
+            "es": []
+        }
+    }
+]

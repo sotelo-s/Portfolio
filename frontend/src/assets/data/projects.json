@@ -1,0 +1,74 @@
+[
+        {
+        "name": {
+            "en": "Personal Portfolio Website",
+            "es": "Sitio Web de Portafolio Personal"
+        },
+        "description": {
+            "en": "This portfolio website itself. Built with React, featuring internationalization, responsive design, and dynamic content loading from JSON files.",
+            "es": "Este mismo sitio web de portafolio. Desarrollado con React, con internacionalización, diseño responsivo y carga dinámica de contenido desde archivos JSON."
+        },
+        "date": {
+            "en": "Feb 2026",
+            "es": "Feb 2026"
+        },
+        "technologies": [
+            "React",
+            "JavaScript (ES6+)",
+            "HTML5/CSS3",
+            "React i18next",
+            "JSON",
+            "Responsive Design",
+            "Git",
+            "Bootstrap 5"
+        ],
+        "img": "/src/assets/projects/portfolio.png"
+    },
+    {
+        "name": {
+            "en": "Gateway - Web Platform for Training Planning",
+            "es": "Gateway - Plataforma web para la planificación formativa"
+        },
+        "colaboration": [
+            {
+                "en": "HP SCDS Technological Observatory",
+                "es": "Observatorio Tecnológico de HP SCDS",
+                "img": "https://hpscds.com/wp-content/uploads/2025/03/logo__hpscds_color-1.svg"
+            },
+            {
+                "en": "University of Santiago de Compostela",
+                "es": "Universidad de Santiago de Compostela",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg"
+            }
+        ],
+        "description": {
+            "en": "Designed and developed a full-stack web platform for educational planning as a Bachelor's Thesis Final Year Project. The system uses AI algorithms to generate personalized learning paths based on career objectives.",
+            "es": "Diseño y desarrollo de una plataforma web full-stack para la planificación formativa como Trabajo de Fin de Grado (TFG). El sistema utiliza algoritmos de IA para generar itinerarios de aprendizaje personalizados según objetivos profesionales."
+        },
+        "date": {
+            "en": "Feb 2025 - Jul 2025",
+            "es": "Feb 2025 - Jul 2025"
+        },
+        "technologies": [
+            "React",
+            "Vite",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Bootstrap 5",
+            "HTML5/CSS3",
+            "RESTful API",
+            "JSON Web Tokens (JWT)",
+            "Python (Web Scraping)",
+            "Beautiful Soup",
+            "Scrapy",
+            "TF-IDF Algorithm",
+            "Natural Language Processing",
+            "JSON",
+            "Git",
+            "Docker"
+        ],
+        "demo": "https://usc-gateway.onrender.com/",
+        "img": "/src/assets/projects/gateway.png"
+    }
+]

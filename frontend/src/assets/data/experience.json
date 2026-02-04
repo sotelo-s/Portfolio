@@ -1,0 +1,33 @@
+[
+    {
+        "place": {
+            "en": "GSERTEL (Televes Corporation)",
+            "es": "GSERTEL (Televes Corporation)",
+            "img": "https://televescorporation.com/wp-content/uploads/2017/07/logos3_0002_Vector-Smart-Object.png"
+        },
+        "role": {
+            "en": "Internship - Backend Developer",
+            "es": "Becaria - Desarrolladora Backend"
+        },
+        "date": {
+            "en": "Mar 2025 - Jun 2025",
+            "es": "Mar 2025 - Jun 2025"
+        },
+        "description": {
+            "en": "Engineered a PDF generation backend service in Node.js for a Network Management System (NMS) and integrated it with the existing frontend via a RESTful API.",
+            "es": "Desarrollo e integración de un servicio backend en Node.js para la generación de informes en PDF para un Sistema de Gestión de Redes (NMS) mediante una API RESTful."
+        },
+        "technologies": [
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Chart.js",
+            "jsPDF",
+            "Docker",
+            "Portainer",
+            "REST API",
+            "JavaScript",
+            "Git/SVN"
+        ]
+    }
+]
