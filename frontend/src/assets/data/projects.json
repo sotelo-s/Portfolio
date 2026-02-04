@@ -22,7 +22,7 @@
             "Git",
             "Bootstrap 5"
         ],
-        "img": "/src/assets/projects/portfolio.png"
+        "img": "portfolio.png"
     },
     {
         "name": {
@@ -69,6 +69,6 @@
             "Docker"
         ],
         "demo": "https://usc-gateway.onrender.com/",
-        "img": "/src/assets/projects/gateway.png"
+        "img": "gateway.png"
     }
 ]

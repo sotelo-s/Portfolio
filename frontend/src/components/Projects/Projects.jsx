@@ -4,13 +4,26 @@ import { useTranslation } from 'react-i18next';
 import { useLanguage } from '../../context/LanguageContext';
 import projectsData from '../../assets/data/projects.json';
 
+import gatewayImage from '../../assets/projects/gateway.png';
+import portfolioImage from '../../assets/projects/portfolio.png';
+
 const Projects = () => {
   const { t } = useTranslation();
   const { language } = useLanguage();
   const [projects, setProjects] = useState([]);
 
+    const imageMap = {
+    'gateway.png': gatewayImage,
+    'portfolio.png': portfolioImage,
+  };
+
   useEffect(() => {
-    setProjects(projectsData);
+    const processedProjects = projectsData.map(project => ({
+      ...project,
+      img: project.img ? imageMap[project.img] || null : null
+    }));
+    
+    setProjects(processedProjects);
   }, []);
 
   const getLocalizedText = (item, key) => {
