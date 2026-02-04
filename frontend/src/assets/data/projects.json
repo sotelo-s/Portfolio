@@ -22,7 +22,8 @@
             "Git",
             "Bootstrap 5"
         ],
-        "img": "portfolio.png"
+        "img": "portfolio.png",
+        "github": "https://github.com/sotelo-s/Portfolio"
     },
     {
         "name": {
