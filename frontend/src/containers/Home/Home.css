@@ -494,6 +494,7 @@ h1{
 .navbar-toggler {
   border: 1px solid rgba(255, 255, 255, 0.3) !important;
   padding: 0.25rem 0.5rem;
+  margin-left: auto;
 }
 
 .navbar-toggler-icon {
@@ -514,3 +515,5 @@ h1{
   box-shadow: 0 0 0 0.2rem rgba(121, 235, 255, 0.5) !important;
   outline: none;
 }
+
+

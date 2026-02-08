@@ -1,9 +1,8 @@
 import './App.css';
-import { useTranslation, initReactI18next } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import { LanguageProvider, useLanguage } from './context/LanguageContext.jsx';
-import { Home } from './containers';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import { Home, ProjectDetails } from './containers';
 
 export default function App() {
   return (
@@ -29,6 +28,7 @@ function AppContent() {
         <div className="main-body flex-grow-1 ">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/projects/:projectName" element={<ProjectDetails />} />
           </Routes>
         </div>
       </div>

@@ -1,12 +1,21 @@
 [
-        {
+    {
         "name": {
             "en": "Personal Portfolio Website",
             "es": "Sitio Web de Portafolio Personal"
         },
+        "slug": "portfolio",
+        "category": {
+            "en": "Frontend Development",
+            "es": "Desarrollo Frontend"
+        },
+        "status": {
+            "en": "Completed",
+            "es": "Completado"
+        },
         "description": {
-            "en": "This portfolio website itself. Built with React, featuring internationalization, responsive design, and dynamic content loading from JSON files.",
-            "es": "Este mismo sitio web de portafolio. Desarrollado con React, con internacionalización, diseño responsivo y carga dinámica de contenido desde archivos JSON."
+            "en": "A modern React-based portfolio website showcasing projects and skills. Features internationalization, responsive design, and interactive components without backend dependencies.",
+            "es": "Un sitio web de portafolio moderno basado en React para mostrar proyectos y habilidades. Incluye internacionalización, diseño responsivo y componentes interactivos sin dependencias de backend."
         },
         "date": {
             "en": "Feb 2026",
@@ -14,34 +23,76 @@
         },
         "technologies": [
             "React",
-            "JavaScript (ES6+)",
+            "JavaScript",
             "HTML5/CSS3",
             "React i18next",
             "JSON",
             "Responsive Design",
-            "Git",
-            "Bootstrap 5"
+            "Git"
         ],
+        "features": {
+            "en": [
+                "Full bilingual support (English/Spanish)",
+                "Interactive project showcase",
+                "No backend required",
+                "Responsive design for all devices",
+                "Content managed via JSON files",
+                "Deployable as static site"
+            ],
+            "es": [
+                "Soporte bilingüe completo (Inglés/Español)",
+                "Exhibición interactiva de proyectos",
+                "Sin backend requerido",
+                "Diseño responsivo para todos los dispositivos",
+                "Contenido gestionado mediante archivos JSON",
+                "Desplegable como sitio estático"
+            ]
+        },
         "img": "portfolio.png",
-        "github": "https://github.com/sotelo-s/Portfolio"
+        "github": "https://github.com/sotelo-s/Portfolio",
+        "expanded-description": {
+            "en": [
+                "This portfolio website is built entirely as a frontend-only React application. All content is stored in JSON files, making it easy to update without touching the codebase.",
+                "The site demonstrates modern frontend practices while maintaining simplicity and performance. No backend or database is required, reducing complexity and hosting costs."
+            ],
+            "es": [
+                "Este sitio web de portafolio está desarrollado completamente como una aplicación React solo de frontend. Todo el contenido se almacena en archivos JSON, facilitando actualizaciones sin modificar el código base.",
+                "El sitio demuestra prácticas modernas de frontend manteniendo simplicidad y rendimiento. No se requiere backend ni base de datos, reduciendo complejidad y costos de hosting."
+            ]
+        }
     },
     {
         "name": {
             "en": "Gateway - Web Platform for Training Planning",
             "es": "Gateway - Plataforma web para la planificación formativa"
         },
+        "slug": "gateway",
+        "category": {
+            "en": "Web Development & AI",
+            "es": "Desarrollo Web & IA"
+        },
+        "status": {
+            "en": "Completed (Bachelor's Thesis)",
+            "es": "Completado (Trabajo de Fin de Grado)"
+        },
         "colaboration": [
             {
                 "en": "HP SCDS Technological Observatory",
                 "es": "Observatorio Tecnológico de HP SCDS",
-                "img": "https://hpscds.com/wp-content/uploads/2025/03/logo__hpscds_color-1.svg"
+                "img": "https://hpscds.com/wp-content/uploads/2025/03/logo__hpscds_color-1.svg",
+                "link": "https://hpscds.com/"
             },
             {
                 "en": "University of Santiago de Compostela",
                 "es": "Universidad de Santiago de Compostela",
-                "img": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg"
+                "img": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg",
+                "link": "https://www.usc.gal/"
             }
         ],
+        "achievements" : {
+            "en":"HP Technology Observatory Award Finalist",
+            "es": "Finalista Premio Observatorio Tecnológico HP"
+        },
         "description": {
             "en": "Designed and developed a full-stack web platform for educational planning as a Bachelor's Thesis Final Year Project. The system uses AI algorithms to generate personalized learning paths based on career objectives.",
             "es": "Diseño y desarrollo de una plataforma web full-stack para la planificación formativa como Trabajo de Fin de Grado (TFG). El sistema utiliza algoritmos de IA para generar itinerarios de aprendizaje personalizados según objetivos profesionales."
@@ -66,10 +117,279 @@
             "TF-IDF Algorithm",
             "Natural Language Processing",
             "JSON",
-            "Git",
-            "Docker"
+            "Git"
         ],
+        "features": {
+            "en": [
+                "Personalized learning path generation using TF-IDF algorithm",
+                "Career-based course recommendations",
+                "User authentication and profile management",
+                "Progress tracking with saved/completed resources",
+                "Price filtering for free/paid courses",
+                "Web scraping integration for course data collection",
+                "Responsive design for all devices",
+                "RESTful API architecture",
+                "Multi-language support"
+            ],
+            "es": [
+                "Generación de itinerarios personalizados con algoritmo TF-IDF",
+                "Recomendaciones de cursos basadas en carreras",
+                "Autenticación de usuarios y gestión de perfiles",
+                "Seguimiento de progreso con recursos guardados/completados",
+                "Filtrado por precio (gratuitos/de pago)",
+                "Integración de web scraping para recolección de datos",
+                "Diseño responsive para todos los dispositivos",
+                "Arquitectura API RESTful",
+                "Soporte multiidioma"
+            ]
+        },
         "demo": "https://usc-gateway.onrender.com/",
-        "img": "gateway.png"
+        "img": "gateway.png",
+        "expanded-description": {
+            "en": [
+                "Gateway is a web application designed to help users define personalized educational paths based on specific professional objectives. It's ideal for individuals interested in improving their professional training autonomously, particularly in self-learning or career transition contexts.",
+                {
+                    "type": "image",
+                    "src": "gateway-architecture-en.png",
+                    "alt": "Gateway system architecture diagram",
+                    "caption": "Gateway System Architecture"
+                },
+                "As shown in the architecture diagram, the system consists of a frontend that allows users to request educational recommendations and visualize a structured plan composed of courses.",
+                "The frontend is supported by a backend that provides functionalities such as user registration and login, profile management, generation of recommended educational itineraries, and progress tracking through resources marked as completed or saved. Additionally, users can filter resources based on various parameters, especially price.",
+                {
+                    "type": "image",
+                    "src": "gateway-context-diagram-en.png",
+                    "alt": "Gateway context diagram showing system components",
+                    "caption": "System Context Diagram"
+                },
+                "The system adopts a modular client-server architecture that clearly separates frontend, backend, and database components, ensuring scalability, security, and maintainability.",
+                {
+                    "type": "divider"
+                },
+                {
+                    "type": "heading",
+                    "level": 3,
+                    "text": "System Objectives"
+                },
+                "The system was designed to achieve the following objectives:",
+                {
+                    "type": "list",
+                    "items": [
+                        "User management: registration, authentication, and profile management",
+                        "User data storage in a database",
+                        "Processing of recommendation requests",
+                        "Display of educational plans with detailed resource information",
+                        "Resource filtering (free/paid courses)",
+                        "Progress tracking through saved/completed resources"
+                    ]
+                },
+                {
+                    "type": "divider"
+                },
+                {
+                    "type": "heading",
+                    "level": 3,
+                    "text": "Technical Architecture"
+                },
+                "The frontend was developed using React with Vite, leveraging Vite's development speed and hot reload capabilities. Bootstrap 5 was used for responsive design and consistent UI components.",
+                "The backend was built with Node.js and Express.js, providing a robust foundation for API development and business logic implementation.",
+                "MongoDB was chosen as the database solution due to its flexibility with evolving schemas, JSON document compatibility, and suitability for projects with limited development timeframes.",
+                {
+                    "type": "image",
+                    "src": "gateway-technologies-en.png",
+                    "alt": "Technology stack used in Gateway project",
+                    "caption": "Technology Stack"
+                },
+                {
+                    "type": "divider"
+                },
+                {
+                    "type": "heading",
+                    "level": 3,
+                    "text": "Key Features"
+                },
+                {
+                    "type": "heading",
+                    "level": 4,
+                    "text": "Data Acquisition & Processing"
+                },
+                {
+                    "type": "heading",
+                    "level": 5,
+                    "text": "Web Scraping"
+                },
+                "The system utilizes web scraping to collect course data from three primary sources: Alison, Coursera, and MIT OpenCourseWare. Python scripts were developed to automatically extract, clean, and structure educational content, ensuring that recommendations are based on real-world market data without manual entry.",
+                {
+                    "type": "heading",
+                    "level": 5,
+                    "text": "TF-IDF Algorithm"
+                },
+                "The Term Frequency-Inverse Document Frequency (TF-IDF) algorithm is implemented to generate personalized course rankings. This information retrieval technique calculates relevance scores between career objectives and available courses, enabling intelligent course recommendations based on textual similarity analysis.",
+                "The algorithm combines two components:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Term Frequency (TF): Number of times a term appears in a document",
+                        "Inverse Document Frequency (IDF): Measures how important a term is across all documents"
+                    ]
+                },
+                "The resulting TF-IDF scores determine the most relevant courses for each career path.",
+                {
+                    "type": "divider"
+                },
+                {
+                    "type": "heading",
+                    "level": 3,
+                    "text": "User Roles"
+                },
+                "The system supports three main user roles:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Public users: Can register, authenticate, request recommendations, and browse career/course information",
+                        "Standard users: Can manage personal profiles and save resources",
+                        "Administrators: Can upload and update course/career information in addition to standard user capabilities"
+                    ]
+                },
+                {
+                    "type": "image",
+                    "src": "gateway-ui-en.png",
+                    "alt": "Gateway user interface screenshot",
+                    "caption": "Gateway Platform User Interface"
+                },
+                {
+                    "type": "divider"
+                },
+                {
+                    "type": "link",
+                    "text": "Try Live Demo",
+                    "url": "https://usc-gateway.onrender.com/",
+                    "icon": "external",
+                    "variant": "btn-primary"
+                }
+            ],
+            "es": [
+                "Gateway es una aplicación web diseñada para ayudar a los usuarios a definir itinerarios formativos personalizados en función de objetivos profesionales específicos. Es ideal para cualquier persona interesada en mejorar su formación profesional de forma autónoma, especialmente en contextos de autoaprendizaje o reconversión laboral.",
+                {
+                    "type": "image",
+                    "src": "gateway-architecture-es.png",
+                    "alt": "Diagrama de arquitectura del sistema Gateway",
+                    "caption": "Arquitectura del sistema Gateway"
+                },
+                "Como se muestra en el diagrama de arquitectura, el sistema está formado por un frontend que permite al usuario solicitar recomendaciones formativas y visualizar un plan estructurado compuesto por cursos.",
+                "Este frontend estará apoyado por un backend, que aportará funcionalidades como el registro e inicio de sesión, la gestión del perfil de usuario, la generación de itinerarios formativos recomendados, y el seguimiento del progreso a través de recursos marcados como completados o guardados. Además, el usuario puede filtrar recursos según una serie de parámetros, en especial, el precio.",
+                {
+                    "type": "image",
+                    "src": "gateway-context-diagram-es.png",
+                    "alt": "Diagrama de contexto del sistema Gateway",
+                    "caption": "Diagrama de contexto del sistema"
+                },
+                "El sistema adopta una arquitectura cliente-servidor modular que separa claramente los componentes de frontend, backend y base de datos, garantizando escalabilidad, seguridad y facilidad de mantenimiento.",
+                {
+                    "type": "divider"
+                },
+                {
+                    "type": "heading",
+                    "level": 3,
+                    "text": "Objetivos del Sistema"
+                },
+                "El sistema fue diseñado para alcanzar los siguientes objetivos:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Gestión de usuarios: registro, autenticación y gestión de perfiles",
+                        "Almacenamiento de datos de usuario en una base de datos",
+                        "Procesamiento de solicitudes de recomendación",
+                        "Visualización de planes formativos con información detallada de recursos",
+                        "Filtrado de recursos (cursos gratuitos/de pago)",
+                        "Seguimiento del progreso a través de recursos guardados/completados"
+                    ]
+                },
+                {
+                    "type": "divider"
+                },
+                {
+                    "type": "heading",
+                    "level": 3,
+                    "text": "Arquitectura Técnica"
+                },
+                "El frontend fue desarrollado usando React con Vite, aprovechando la velocidad de desarrollo y recarga en caliente de Vite. Bootstrap 5 se utilizó para el diseño responsive y componentes de UI consistentes.",
+                "El backend fue construido con Node.js y Express.js, proporcionando una base robusta para el desarrollo de API y la implementación de lógica de negocio.",
+                "Se eligió MongoDB como solución de base de datos debido a su flexibilidad con esquemas evolutivos, compatibilidad con documentos JSON y adecuación para proyectos con plazos de desarrollo limitados.",
+                {
+                    "type": "image",
+                    "src": "gateway-technologies-es.png",
+                    "alt": "Stack tecnológico utilizado en el proyecto Gateway",
+                    "caption": "Stack Tecnológico"
+                },
+                {
+                    "type": "divider"
+                },
+                {
+                    "type": "heading",
+                    "level": 3,
+                    "text": "Características Principales"
+                },
+                {
+                    "type": "heading",
+                    "level": 4,
+                    "text": "Adquisición y Procesamiento de Datos"
+                },
+                {
+                    "type": "heading",
+                    "level": 5,
+                    "text": "Web Scraping"
+                },
+                "El sistema utiliza web scraping para recopilar datos de cursos de tres fuentes principales: Alison, Coursera y MIT OpenCourseWare. Se desarrollaron scripts en Python para extraer, limpiar y estructurar automáticamente contenido educativo, asegurando que las recomendaciones se basen en datos reales del mercado sin necesidad de entrada manual.",
+                {
+                    "type": "heading",
+                    "level": 5,
+                    "text": "Algoritmo TF-IDF"
+                },
+                "Se implementa el algoritmo Term Frequency-Inverse Document Frequency (TF-IDF) para generar rankings personalizados de cursos. Esta técnica de recuperación de información calcula puntuaciones de relevancia entre objetivos profesionales y cursos disponibles, permitiendo recomendaciones inteligentes de cursos basadas en análisis de similitud textual.",
+                "El algoritmo combina dos componentes:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Frecuencia del Término (TF): Número de veces que aparece un término en un documento",
+                        "Frecuencia Inversa de Documento (IDF): Mide la importancia de un término en todos los documentos"
+                    ]
+                },
+                "Las puntuaciones TF-IDF resultantes determinan los cursos más relevantes para cada camino profesional.",
+                {
+                    "type": "divider"
+                },
+                {
+                    "type": "heading",
+                    "level": 3,
+                    "text": "Roles de Usuario"
+                },
+                "El sistema soporta tres roles principales de usuario:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Usuarios públicos: Pueden registrarse, autenticarse, solicitar recomendaciones y navegar información de carreras/cursos",
+                        "Usuarios estándar: Pueden gestionar perfiles personales y guardar recursos",
+                        "Administradores: Pueden subir y actualizar información de cursos/carreras además de las capacidades de usuario estándar"
+                    ]
+                },
+                {
+                    "type": "image",
+                    "src": "gateway-ui-es.png",
+                    "alt": "Captura de pantalla de la interfaz de usuario de Gateway",
+                    "caption": "Interfaz de Usuario de la Plataforma Gateway"
+                },
+                {
+                    "type": "divider"
+                },
+                {
+                    "type": "link",
+                    "text": "Probar Demo en Vivo",
+                    "url": "https://usc-gateway.onrender.com/",
+                    "icon": "external",
+                    "variant": "btn-primary"
+                }
+            ]
+        }
     }
 ]

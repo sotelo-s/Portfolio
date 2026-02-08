@@ -1,0 +1,50 @@
+{
+    "spanish": {
+        "name": {
+            "en": "Spanish",
+            "es": "Español"
+        },
+        "level": {
+            "en": "Native",
+            "es": "Nativo"
+        },
+        "levelClass": "level-native",
+        "flagCode": "es"
+    },
+    "galician": {
+        "name": {
+            "en": "Galician",
+            "es": "Gallego"
+        },
+        "level": {
+            "en": "Native",
+            "es": "Nativo"
+        },
+        "levelClass": "level-native",
+        "flagCode": "gl"
+    },
+    "english": {
+        "name": {
+            "en": "English",
+            "es": "Inglés"
+        },
+        "level": {
+            "en": "C1 (Advanced)",
+            "es": "C1 (Avanzado)"
+        },
+        "levelClass": "level-c1",
+        "flagCode": "en"
+    },
+    "german": {
+        "name": {
+            "en": "German",
+            "es": "Alemán"
+        },
+        "level": {
+            "en": "A1 (Beginner)",
+            "es": "A1 (Principiante)"
+        },
+        "levelClass": "level-a1",
+        "flagCode": "de"
+    }
+}

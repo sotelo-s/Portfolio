@@ -1,6 +1,6 @@
 {
     "i_about": "Sobre mí",
-    "i_about_text_1": "Soy graduada en Ingeniería Informática y estudiante de Máster en Big Data en la Universidad de Santiago de Compostela, con motivación por iniciar mi carrera profesional en el ámbito de la ingeniería de datos y el desarrollo de software. Busco oportunidades donde pueda aplicar mis conocimientos técnicos, seguir aprendiendo y contribuir en proyectos innovadores, complementando la formación académica con experiencia práctica en entornos desafiantes.",
+    "i_about_text_1": "Soy graduada en Ingeniería Informática y estudiante de Máster en Big Data en la Universidad de Santiago de Compostela, con motivación por iniciar mi carrera profesional en el ámbito de la ingeniería de datos y el desarrollo de software. Reconocida en el Acto de reconocimiento a los mejores expedientes de la ABAU (exámenes de acceso a la universidad) y con Matrícula de Honor en 4 asignaturas universitarias. Busco oportunidades donde pueda aplicar mis conocimientos técnicos, seguir aprendiendo y contribuir en proyectos innovadores, complementando la formación académica con experiencia práctica en entornos desafiantes.",
     "i_about_text_2": "Mi experiencia técnica abarca desde desarrollo frontend con React hasta sistemas backend con Node.js, y análisis de datos con Python y R. Estoy deseando aplicar estas habilidades en entornos profesionales mientras continúo expandiendo mis conocimientos en tecnologías de big data e ingeniería de software.",
     "i_about_title": "Sobre Mí",
     "i_collaboration": "Colaboración con",
@@ -25,5 +25,22 @@
     "i_viewcv": "Ver CV",
     "i_helloText": "¡Hola! Soy",
     "i_titleText": "Graduada en Ingeniería Informática",
-    "i_extraText": "& Estudiante de Máster en Big Data"
+    "i_extraText": "& Estudiante de Máster en Big Data",
+
+    "i_back_to_projects": "Volver atrás",
+    "i_category": "Categoría",
+    "i_click_to_expand": "Pulsa para expandir",
+    "i_gallery": "Galería",
+    "i_go_back": "Volver atrás",
+    "i_key_features": "Características clave",
+    "i_loading_project": "Cargando proyecto...",
+    "i_project_details": "Detalles del proyecto",
+    "i_project_info": "Info del proyecto",
+    "i_project_not_found": "404 not found :(",
+    "i_project_not_found_desc": "Este proyecto no existe",
+    "i_quick_links": "Enlaces rápidos",
+    "i_status": "Estado",
+    "i_technologies": "Tecnologías",
+    "i_view_details": "Ver detalles",
+    "i_year": "Año"
 }

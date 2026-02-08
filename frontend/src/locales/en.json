@@ -1,7 +1,8 @@
 {
     "i_about": "About",
-      "i_about_text_1": "I'm a passionate computer engineering graduate and Big Data Master's student at the University of Santiago de Compostela, motivated to launch my professional career in data engineering and software development. I'm seeking opportunities where I can apply my technical knowledge, continue learning, and contribute to innovative projects, complementing academic training with practical experience in challenging environments.",
-  "i_about_text_2": "My technical expertise spans from frontend development with React to backend systems with Node.js, and data analysis with Python and R. I'm eager to apply these skills in professional settings while continuously expanding my knowledge in big data technologies and software engineering.",
+
+    "i_about_text_1": "I'm a passionate computer engineering graduate and Big Data Master's student at the University of Santiago de Compostela, motivated to launch my professional career in data engineering and software development. Recognized in the Act of recognition to the best ABAU records (university entrance exams) and achieved high honors in 4 university subjects. I'm seeking opportunities where I can apply my technical knowledge, continue learning, and contribute to innovative projects, complementing academic training with practical experience in challenging environments.",
+    "i_about_text_2": "My technical expertise spans from frontend development with React to backend systems with Node.js, and data analysis with Python and R. I'm eager to apply these skills in professional settings while continuously expanding my knowledge in big data technologies and software engineering.",
     "i_about_title": "About Me",
     "i_collaboration": "Collaboration with",
     "i_connect_with_me": "Connect with me",
@@ -25,5 +26,22 @@
     "i_viewcv": "View CV",
     "i_titleText": "Graduate in Computer Engineering",
     "i_extraText": "& Master's student in Big Data",
-    "i_download_cv": "Download CV"
+    "i_download_cv": "Download CV",
+
+    "i_back_to_projects": "Go back",
+    "i_category": "Category",
+    "i_click_to_expand": "Click to expand",
+    "i_gallery": "Gallery",
+    "i_go_back": "Go back",
+    "i_key_features": "Key features",
+    "i_loading_project": "Loading project...",
+    "i_project_details": "Project details",
+    "i_project_info": "Project info",
+    "i_project_not_found": "404 not found :(",
+    "i_project_not_found_desc": "This project does not exists",
+    "i_quick_links": "Quick links",
+    "i_status": "Status",
+    "i_technologies": "Technologies",
+    "i_view_details": "View details",
+    "i_year": "Year"
 }

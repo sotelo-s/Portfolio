@@ -3,7 +3,8 @@
         "place": {
             "en": "GSERTEL (Televes Corporation)",
             "es": "GSERTEL (Televes Corporation)",
-            "img": "https://televescorporation.com/wp-content/uploads/2017/07/logos3_0002_Vector-Smart-Object.png"
+            "img": "https://televescorporation.com/wp-content/uploads/2017/07/logos3_0002_Vector-Smart-Object.png",
+            "link" : "https://www.gsertel.com/"
         },
         "role": {
             "en": "Internship - Backend Developer",

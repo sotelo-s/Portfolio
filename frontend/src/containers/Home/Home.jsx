@@ -33,10 +33,37 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    if (contentRef.current) {
-      contentRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (window.innerWidth < 992) {
+      const navbar = document.getElementById('navbarNav');
+      if (navbar && navbar.classList.contains('show')) {
+        const toggleBtn = document.querySelector('[data-bs-target="#navbarNav"]');
+        if (toggleBtn) {
+          toggleBtn.click();
+        }
+      }
     }
+
+
+    
+
   }, [activeSection]);
+
+
+  const scrollToContent = () => {
+    if (!contentRef.current) return;
+
+    const navbarHeight = navbarRef.current?.offsetHeight || 56;
+
+    const contentRect = contentRef.current.getBoundingClientRect();
+    const absoluteTop = window.pageYOffset + contentRect.top;
+
+    const targetPosition = absoluteTop - navbarHeight - 20;
+
+    window.scrollTo({
+      top: targetPosition,
+      behavior: 'smooth'
+    });
+  };
 
   const renderContent = () => {
     const sections = {
@@ -117,14 +144,23 @@ export default function Home() {
                   onClick={(e) => {
                     e.preventDefault();
                     setActiveSection('about');
+                    setTimeout(scrollToContent, 100);
                   }}
+                  data-bs-target="#navbarNav"
                 >
                   {t("i_about")}
                 </a>
               </li>
               <li className="nav-item">
                 <a className={`nav-link ${activeSection === 'experience' ? 'active' : ''}`}
-                  href="#experience" onClick={(e) => { e.preventDefault(); setActiveSection('experience'); }}>
+                  href="#experience"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setActiveSection('experience');
+                    setTimeout(scrollToContent, 100);
+                  }}
+                  data-bs-target="#navbarNav"
+                >
                   {t("i_experience")}
                 </a>
               </li>
@@ -135,7 +171,9 @@ export default function Home() {
                   onClick={(e) => {
                     e.preventDefault();
                     setActiveSection('projects');
+                    setTimeout(scrollToContent, 100);
                   }}
+                  data-bs-target="#navbarNav"
                 >
                   {t("i_projects")}
                 </a>
@@ -147,7 +185,9 @@ export default function Home() {
                   onClick={(e) => {
                     e.preventDefault();
                     setActiveSection('cv');
+                    setTimeout(scrollToContent, 100);
                   }}
+                  data-bs-target="#navbarNav"
                 >
                   {t("i_viewcv")}
                 </a>
@@ -159,7 +199,9 @@ export default function Home() {
                   onClick={(e) => {
                     e.preventDefault();
                     setActiveSection('contact');
+                    setTimeout(scrollToContent, 100);
                   }}
+                  data-bs-target="#navbarNav"
                 >
                   {t("i_contact")}
                 </a>
@@ -180,12 +222,38 @@ export default function Home() {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#" onClick={() => setLanguage("en")}>
+                    <a className="dropdown-item" href="#" onClick={(e) => {
+                      e.preventDefault();
+                      setLanguage("en");
+                      if (window.innerWidth < 992) {
+                        const navbar = document.getElementById('navbarNav');
+                        if (navbar && navbar.classList.contains('show')) {
+                          const toggleBtn = document.querySelector('[data-bs-target="#navbarNav"]');
+                          if (toggleBtn) {
+                            toggleBtn.click();
+                          }
+                        }
+                      }
+                    }}>
                       <img src={flags.en} alt="en" width="20" className="me-2" />EN
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#" onClick={() => setLanguage("es")}>
+                    <a className="dropdown-item" href="#" onClick={(e) => {
+                      e.preventDefault();
+                      setLanguage("es");
+
+                      //cerrar navbar en movil
+                      if (window.innerWidth < 992) {
+                        const navbar = document.getElementById('navbarNav');
+                        if (navbar && navbar.classList.contains('show')) {
+                          const toggleBtn = document.querySelector('[data-bs-target="#navbarNav"]');
+                          if (toggleBtn) {
+                            toggleBtn.click();
+                          }
+                        }
+                      }
+                    }}>
                       <img src={flags.es} alt="es" width="20" className="me-2" />ES
                     </a>
                   </li>

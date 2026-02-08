@@ -1,0 +1,47 @@
+{
+    "dataScience": {
+        "title": {
+            "en": "Data Science & Analysis",
+            "es": "Ciencia de Datos & Análisis"
+        },
+        "items": [
+            "Python: Web Scraping (Beautiful Soup, Scrapy)",
+            "Python: Pandas, NumPy",
+            "Python: Visualization (Matplotlib)",
+            "R: Stadistical Analysis",
+            "R: Visualization (ggplot2)",
+            "Jupyter Notebook",
+            "Tableau",
+            "Power BI"
+        ]
+    },
+    "fullStack": {
+        "title": {
+            "en": "Full Stack Development",
+            "es": "Desarrollo Full Stack"
+        },
+        "items": [
+            "Frontend: React",
+            "Frontend: JavaScript (ES6+)",
+            "Frontend: HTML5, CSS3, Bootstrap 5",
+            "Backend: Node.js, Express.js",
+            "Databases: MongoDB, Mongoose",
+            "Databases: PostgreSQL",
+            "APIs: RESTful APIs"
+        ]
+    },
+    "programmingLanguages": {
+        "title": {
+            "en": "Programming Languages",
+            "es": "Lenguajes de Programación"
+        },
+        "items": ["Python", "JavaScript (ES6+)", "Java", "C", "C++", "R"]
+    },
+    "tools": {
+        "title": {
+            "en": "Development Tools",
+            "es": "Herramientas de Desarrollo"
+        },
+        "items": ["Git", "npm", "Visual Studio Code", "Postman", "Docker"]
+    }
+}

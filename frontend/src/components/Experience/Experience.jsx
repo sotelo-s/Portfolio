@@ -15,11 +15,11 @@ const Experience = () => {
 
   const getLocalizedText = (item, key) => {
     if (!item || !item[key]) return '';
-    
+
     if (typeof item[key] === 'object') {
       return item[key][language] || item[key]['en'] || '';
     }
-    
+
     return item[key];
   };
 
@@ -27,7 +27,7 @@ const Experience = () => {
   return (
     <div className="content-section">
       <h2>{t("i_experience_title")}</h2>
-      
+
       <div className="experience-timeline">
         {experiences.map((exp, index) => {
           const place = getLocalizedText(exp, 'place');
@@ -41,8 +41,8 @@ const Experience = () => {
               <div className="experience-header">
                 <div className="d-flex align-items-center">
                   {exp.place?.img && (
-                    <img 
-                      src={exp.place.img} 
+                    <img
+                      src={exp.place.img}
                       alt={place}
                       className="company-logo me-3"
                       style={{ width: '30px', height: '30px', objectFit: 'contain' }}
@@ -53,7 +53,7 @@ const Experience = () => {
                   )}
                   <div>
                     <h4>{role}</h4>
-                    <div className="experience-company">{place}</div>
+                    <a href={exp.place.link}><div className="experience-company">{place}</div></a>
                   </div>
                 </div>
                 <span className="experience-date">{date}</span>

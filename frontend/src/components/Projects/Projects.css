@@ -228,3 +228,18 @@
   flex-direction: column;
 }
 
+
+
+.project-achievements {
+  background: rgba(121, 235, 255, 0.08);
+  color: #79EBFF;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  border: 1px solid rgba(121, 235, 255, 0.2);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  font-weight: bold;
+  margin-top: 1rem !important;
+  font-style: italic;
+  position: relative;
+}

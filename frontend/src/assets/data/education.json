@@ -3,7 +3,8 @@
         "place": {
             "en": "University of Santiago de Compostela",
             "es": "Universidad de Santiago de Compostela",
-            "img": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg"
+            "img": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg",
+            "link" : "https://www.usc.gal/"
         },
         "title": {
             "en": "Master in Big Data",
@@ -27,7 +28,8 @@
         "place": {
             "en": "University of Santiago de Compostela",
             "es": "Universidad de Santiago de Compostela",
-            "img": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg"
+            "img": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Logotype_of_Universidade_de_Santiago_de_Compostela.svg",
+            "link" : "https://www.usc.gal/"
         },
         "title": {
             "en": "Computer Engineering",
