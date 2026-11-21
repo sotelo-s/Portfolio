@@ -112,7 +112,7 @@ function AboutPreview() {
             <ul>
               <li><Link to="/research">Research projects</Link></li>
               <li><Link to="/profile/education">Education</Link></li>
-              <li><Link to="/profile/experience">Experience</Link></li>
+              <li><Link to="/experience">Experience</Link></li>
               <li><Link to="/contact">Contact</Link></li>
             </ul>
           </div>
