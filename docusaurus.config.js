@@ -29,6 +29,8 @@ const config = {
     // If you aren't using GitHub pages, you don't need these.
 
     onBrokenLinks: "throw",
+    organizationName: "sotelo-s",
+    projectName: "Portfolio",
 
     // Even if you don't use internationalization, you can use this field to set
     // useful metadata like html lang. For example, if your site is Chinese, you
