@@ -1,0 +1,148 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.heroBanner {
+  padding: 6rem 0;
+  background: var(--ifm-background-color);
+  text-align: left;
+}
+
+.heroContent {
+  max-width: 850px;
+}
+
+.eyebrow {
+  color: var(--ifm-color-primary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.heroTitle {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  margin: 1rem 0;
+}
+
+.heroSubtitle {
+  max-width: 700px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.section {
+  padding: 4rem 0;
+  background: var(--ifm-background-surface-color);
+}
+
+.section h2 {
+  margin-bottom: 2rem;
+}
+
+.interestGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.interestCard {
+  padding: 1.5rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+}
+
+.interestCard h3 {
+  font-size: 1.2rem;
+}
+
+.interestCard p {
+  margin-bottom: 0;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.aboutSection {
+  padding: 4rem 0;
+}
+
+.aboutContent {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    padding: 4rem 0;
+  }
+
+  .interestGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .aboutContent {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.heroLayout {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+  gap: 4rem;
+}
+
+.heroImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroImage {
+  border-radius: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .heroLayout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .heroImageContainer {
+    order: -1;
+  }
+
+  .heroImage {
+    max-width: 220px;
+  }
+}

@@ -1,0 +1,129 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #356A9A;
+  --ifm-color-primary-dark: #305F8A;
+  --ifm-color-primary-darker: #2D5982;
+  --ifm-color-primary-darkest: #25496B;
+  --ifm-color-primary-light: #4279A8;
+  --ifm-color-primary-lighter: #4F85B2;
+  --ifm-color-primary-lightest: #709CC0;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(53, 106, 154, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #79A9D4;
+  --ifm-color-primary-dark: #6599C8;
+  --ifm-color-primary-darker: #578FC1;
+  --ifm-color-primary-darkest: #4179AD;
+  --ifm-color-primary-light: #8DB8DD;
+  --ifm-color-primary-lighter: #A1C6E4;
+  --ifm-color-primary-lightest: #B8D5EB;
+
+  --docusaurus-highlighted-code-line-bg: rgba(121, 169, 212, 0.15);
+}
+
+.education-timeline {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.education-item {
+  position: relative;
+  padding: 0 0 2.5rem 2rem;
+  border-left: 2px solid var(--ifm-color-emphasis-300);
+}
+
+.education-item:last-child {
+  border-left-color: transparent;
+  padding-bottom: 0;
+}
+
+.education-item::before {
+  content: "";
+  position: absolute;
+  left: -7px;
+  top: 2.2rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--ifm-color-primary);
+}
+
+.education-date {
+  color: var(--ifm-color-primary);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.education-content h3 {
+  margin-bottom: 0.5rem;
+}
+
+.education-content p {
+  margin-bottom: 0;
+}
+
+
+.education-timeline {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.education-item {
+  position: relative;
+  padding: 0 0 2.5rem 2rem;
+  border-left: none;
+}
+
+.education-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2.2rem;
+  bottom: -2.5rem;
+  width: 2px;
+  background: var(--ifm-color-emphasis-300);
+}
+
+.education-item:last-child::after {
+  display: none;
+}
+
+.education-item::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 2.2rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--ifm-color-primary);
+  z-index: 1;
+}
+
+.education-date {
+  color: var(--ifm-color-primary);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.education-content h3 {
+  margin-bottom: 0.5rem;
+}
+
+.education-content p {
+  margin-bottom: 0;
+}

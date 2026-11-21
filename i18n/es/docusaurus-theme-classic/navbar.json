@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "Portfolio",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Profile": {
+    "message": "Perfil",
+    "description": "Navbar item with label Profile"
+  },
+  "item.label.Research": {
+    "message": "Research",
+    "description": "Navbar item with label Research"
+  },
+  "item.label.Career": {
+    "message": "Career",
+    "description": "Navbar item with label Career"
+  },
+  "item.label.Contact": {
+    "message": "Contact",
+    "description": "Navbar item with label Contact"
+  },
+  "item.label.Experience": {
+    "message": "Experience",
+    "description": "Navbar item with label Experience"
+  }
+}
